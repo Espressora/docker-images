@@ -1,4 +1,4 @@
-FROM symball/docker-images:environment_php7_mongo
+FROM kagomema24/docker-images:environment_php7_mongo
 MAINTAINER Simon Ball <open-source@simonball.me>
 
 USER root

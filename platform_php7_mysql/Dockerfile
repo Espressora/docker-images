@@ -1,4 +1,4 @@
-FROM symball/docker-images:environment_php7_mysql
+FROM kagomema24/docker-images:environment_php7_mysql
 MAINTAINER Simon Ball <open-source@simonball.me>
 
 USER root

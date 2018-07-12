@@ -1,4 +1,4 @@
-FROM symball/docker-images:base_php7_developer
+FROM kagomema24/docker-images:base_php7_developer
 MAINTAINER Simon Ball <open-source@simonball.me>
 
 USER root
