@@ -45,6 +45,17 @@ RUN apk --update add \
   openssh \
   && ssh-keygen -A
 
+#### Install all dependencies
+RUN apt-get install -y \
+libxrender1 \
+libfontconfig1 \
+libx11-dev \
+libjpeg62 \
+libxtst6 \
+wget \
+&& wget https://github.com/h4cc/wkhtmltopdf-amd64/blob/master/bin/wkhtmltopdf-amd64?raw=true -O /usr/local/bin/wkhtmltopdf \
+&& chmod +x /usr/local/bin/wkhtmltopdf \
+
 COPY tools/phing /usr/local/bin/phing
 COPY php.ini /etc/php7/php.ini
 
