@@ -11,6 +11,9 @@ RUN apk --update add \
   php7-tokenizer \
   php7-xdebug \
   php7-xsl \
+  php7-pcntl \
+  php7-sockets \
+  php7-sysvsem \
   nodejs \
   nodejs-npm \
   shadow \

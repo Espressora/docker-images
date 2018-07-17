@@ -33,6 +33,9 @@ RUN apk --update add \
   php7-xmlwriter \
   php7-zip \
   php7-zlib \
+  php7-pcntl \
+  php7-sockets \
+  php7-sysvsem \
   autoconf \
   bash \
   ca-certificates \
